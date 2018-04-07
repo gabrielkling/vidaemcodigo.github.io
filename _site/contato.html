@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <title>Vida em Código - Desenvolvimento Web</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/contato.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+  <header>
+  <nav id="nav_barfix" class="cont navfix">
+    <ul>
+      <li class="minilogo">
+        <a href="#">
+          <>
+        </a>
+      </li>
+      <li>
+        <a href="index.html">Início</a>
+      </li>
+      <li>
+        <a href="#">Nossos Trabalhos</a>
+      </li>
+      <li>
+        <a href="sobrenos.html">Sobre Nós</a>
+      </li>
+      <li>
+        <a href="#">Contato</a>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="main">
+    <h2>Fale Conosco</h2>
+
+    <div id="map">
+      <div id="map"></div>
+      <script>
+        function initMap() {
+          var uluru = {
+            lat: -22.5075292,
+            lng: -43.1773921
+          };
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlV37Fxeezh8H_dOnM2dzTc-tyWSfSsPs&callback=initMap">
+      </script>
+    </div>
+    <form class="form">
+      <h2 style="color: white; margin-bottom: 0;">E-mail:</h2>
+      <input type="text" name="nome" placeholder="Nome" style="border: none; background-color: white; width: 32%; margin-top: 10%;margin-left: 10%; padding: 1% 4%;"/>
+      <input type="text" name="sobrenome" placeholder="Sobrenome" / style="border: none; background-color: white; width: 32%; padding: 1% 4%;">
+      <input type="email" name="email" placeholder="Email" style="border: none; background-color: white; width: 74.5%; margin-top: 2%; margin-left: 10%; padding: 1% 4%;"/>
+      <input type="text" name="assunto" placeholder="Assunto" style="border: none; background-color: white; width: 74.5%; margin-top: 2%; margin-left: 10%; padding: 1% 4%;">
+      <input type="text" name="mensagem" placeholder="Conte-nos mais sobre o seu projeto" style="border: none; background-color: white; width: 74.5%; margin-top: 2%; margin-left: 10%; padding: 1% 4%; height: 10em;" />
+      <input type="submit" value="Enviar" style="border: none; background-color: rgb(17, 18, 19); width: 35%; margin-left: 32.5%; margin-top: 7%; padding: 3% 6%; color: white;"/>
+    </form>
+
+
+  </main>
+
+  <footer>
+
+  <!-- Footer Superior -->
+  <section class="footerp">
+
+    <!--  Indice do Site -->
+    <section class="sitemap">
+      <h3>Mapa do Site:</h3>
+      <ul>
+        <li>
+          <a href="#">Início</a>
+        </li>
+        <li>
+          <a href="#">Nossos Trabalhos</a>
+        </li>
+        <li>
+          <a href="sobrenos.html">Sobre Nós</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Redes Sociais -->
+    <section class="followus">
+      <h3 class="titlefollow">Siga-nos:</h3>
+
+      <section class="social-icons">
+        <a href="https://fb.com/vidaemcodigo" class="fb"><i class="socicon-facebook"></i></a>
+        <a href="#" class="inst"><i class="socicon-instagram"></i></a>
+        <a href="https://github.com/vidaemcodigo/" class="git"><i class="socicon-github"></i></a>
+        <a href="#" class="tw"><i class="socicon-twitter"></i></a>
+      </section>
+
+    </section>
+
+    <!-- Facebook -->
+    <section class="fb">
+      <div class="fb-page" data-href="https://www.facebook.com/vidaemcodigo/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/vidaemcodigo/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vidaemcodigo/">Vida em Código</a></blockquote>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- Footer Posterior -->
+  <section class="downfooter">
+    <p>© 2018 | Vida em Código Desenvolvimento Web</p>
+  </section>
+
+</footer>
+
+
+</body>
+
+</html>
