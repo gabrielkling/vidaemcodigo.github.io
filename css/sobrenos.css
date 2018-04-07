@@ -1,0 +1,51 @@
+/*  Sobre Nós */
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Monospace'
+}
+
+body {
+  background: black;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  background-color: white;
+  height: 100vh;
+  grid-template-columns: 2fr 3fr;
+}
+
+.mainlogo {
+  width: 75%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+.main p {
+  text-align: left;
+  color: black;
+}
+
+.texto {
+  align-self: center;
+  justify-self: center;
+}
+
+.texto h2 {
+  margin: 0;
+}
+
+.contatolink {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.contatolink:hover {
+  text-decoration: underline;
+}

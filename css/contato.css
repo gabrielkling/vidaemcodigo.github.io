@@ -1,0 +1,41 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Monospace'
+}
+
+body {
+  background: var(--dark);
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+#map{
+  height: 450px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.main{
+  height: 800px;
+  background-color: white;
+  position: relative;
+}
+
+.main h2{
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5%;
+}
+
+.form{
+  background-color: black;
+  height: 500px;
+  position: absolute;
+  width: 450px;
+  top: 16%;
+  left: 60%;
+}
