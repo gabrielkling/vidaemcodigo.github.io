@@ -1,0 +1,163 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Monospace'
+}
+
+body {
+  background: black;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Style */
+
+.header {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header video {
+  position: static;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Navigation Bar Style */
+
+.nav {
+  display: grid;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  bottom: 1rem;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr, 1fr, 1fr;
+  grid-auto-flow: column;
+  grid-gap: 3rem;
+  align-items: baseline;
+}
+
+.nav ul a {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.nav ul a:hover {
+  text-decoration: underline;
+}
+
+/* Logo Style */
+
+.logo {
+  position: absolute;
+  display: grid;
+  top: 15%;
+  right: 2.5em;
+}
+
+.logo img {
+  width: 430px;
+}
+
+/* Section Services */
+
+.services {
+  background-color: white;
+  text-align: center;
+  height: auto;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 100vh;
+}
+
+.serv-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.titulo {
+  font-size: 2.5em;
+}
+
+.col {
+  padding-top: 10%;
+  font-size: 1.2em;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.col a {
+  text-decoration: none;
+  color: black;
+  border: solid 3px black;
+}
+
+.col a:hover {
+  background-color: black;
+  color: white;
+}
+
+.mkticon {
+  color: black;
+  align-self: center;
+}
+
+/* Posts */
+
+.posts {
+  display: grid;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.posts h1 {
+  font-size: 2em;
+}
+
+.line1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.line2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.line3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.post1 img {
+  object-fit: cover;
+  width: 100%;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.post1 img:hover {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);

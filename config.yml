@@ -1,0 +1,15 @@
+# Site settings
+
+title: Vida em Código
+email: contato@vidaemcodigo.com
+description: "Esse é o site da startup Vida em Código."
+baseurl: "/blog"
+url: "http://vidaemcodigo.github.io"
+twitter_username: vidaemcodigo
+github_username: vidaemcodigo
+
+# Build settings
+
+markdown: kramdown
+
+permalink: /:title
