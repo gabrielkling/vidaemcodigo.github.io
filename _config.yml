@@ -18,7 +18,7 @@ title: Vida em Código
 email: contato@vidaemcodigo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Esse é o site da nossa Startup de desenvolvimento web. Situada em Petrópolis/RJ.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://vidaemcodigo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vidaemcodigo
 github_username: vidaemcodigo
