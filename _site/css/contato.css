@@ -39,3 +39,10 @@ body {
   top: 16%;
   left: 60%;
 }
+
+@media (min-width: 1920px){
+  .form{
+    height: 600px;
+    top: 15%;
+  }
+}

@@ -72,6 +72,17 @@ body {
   width: 430px;
 }
 
+@media (min-width: 1920px){
+  .logo{
+    top: 20%;
+  }
+  .logo img{
+    width: 550px;
+  }
+}
+
+/*  1080 -> 550px top -> 20% */
+
 /* Section Services */
 
 .services {
