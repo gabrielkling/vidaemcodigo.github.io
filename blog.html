@@ -7,105 +7,109 @@ title: Blog
 
 <html>
 
-  <head>
-    <title>Vida em Código - Desenvolvimento Web</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/blog.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="icon" href="logo.png">
-    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
+<head>
+  <title>Vida em Código - Desenvolvimento Web</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/blog.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 
-  <body>
+<body>
 
-    {% include fb.html %}
+  {% include fb.html %} {% include header.html %}
 
-    {% include header.html %}
+  <main class="principal">
 
-    <main class="principal">
+    <section class="first-post">
 
-      <section class="first-post">
+      <section class="left">
 
-        <section class="left">
+        <h1>Porquê o SEO importa para a sua empresa?</h1>
 
-          <h1>Porquê o SEO importa para a sua empresa?</h1>
+        <p>Entenda como a otimização de pesquisa melhora o seu site.</p>
 
-          <p>Entenda como a otimização de pesquisa melhora o seu site.</p>
-
-          <h5><a href="#">Leia Mais</a></h5>
-
-        </section>
-
-        <section class="right">
-          <img src="https://picsum.photos/700/400"/>
-        </section>
+        <h5><a href="#">Leia Mais</a></h5>
 
       </section>
 
-      <section class="programacao">
-
-        <h1>Programação</h1>
-
-        <section class="posts1">
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-          </section>
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-          </section>
-
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-          </section>
-
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-          </section>
-
-        </section>
-
+      <section class="right">
+        <img src="https://picsum.photos/700/400/?random" />
       </section>
 
-      <section class="devweb">
+    </section>
 
-        <h1>Desenvolvimento Web</h1>
+    <section class="programacao">
 
-        <section class="posts1">
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-            <h5>DevWeb</h5>
-          </section>
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-            <h5>DevWeb</h5>
-          </section>
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-            <h5>DevWeb</h5>
-          </section>
-
-          <section class="post">
-            <img src="https://picsum.photos/300/?random"/>
-            <h5>DevWeb</h5>
-          </section>
-
-        </section>
-
-        <h3 style="display: grid; align-items: flex-end;"><a style="color: white;" href="#">Mais Artigos</a></h3>
+      <section class="relative">
+        <a href="#">
+            <img src="https://picsum.photos/768/768/?random"/>
+            <!-- <section class="absolute text">
+              <h1>Lorem Ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>              <h4>Ler Mais</h4>
+            </section> -->
+          </a>
       </section>
-    </main>
 
-    {% include footer.html %}
-  </body>
+      <section class="progposts">
+        <a href="#">
+            <img src="https://picsum.photos/384/384/?random"/>
+            <!-- <section class="absolute progposts_text">
+              <h1>Lorem Ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              <h4>Ler Mais</h4>
+            </section> -->
+          </a>
+        <a href="#">
+            <img src="https://picsum.photos/384/384/?random"/>
+            <!-- <section class="absolute progposts_text">
+              <h1>Lorem Ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              <h4>Ler Mais</h4>
+            </section> -->
+          </a>
+        <a href="#">
+            <img src="https://picsum.photos/384/384/?random"/>
+            <!-- <section class="absolute progposts_text">
+              <h1>Lorem Ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              <h4>Ler Mais</h4>
+            </section> -->
+          </a>
+        <a href="#">
+            <img src="https://picsum.photos/384/384/?random"/>
+            <!-- <section class="absolute progposts_text">
+              <h1>Lorem Ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              <h4>Ler Mais</h4>
+            </section> -->
+          </a>
+      </section>
+
+    </section>
+
+    <section class="negocios">
+      <section class="relative">
+        <img src="https://picsum.photos/768/384/?random" />
+      </section>
+      <section class="relative">
+        <img src="https://picsum.photos/768/384/?random" />
+      </section>
+      <section class="relative">
+        <img src="https://picsum.photos/768/384/?random" />
+      </section>
+      <section class="relative">
+        <img src="https://picsum.photos/768/384/?random" />
+      </section>
+    </section>
+
+  </main>
+
+  {% include footer.html %}
+</body>
 
 </html>

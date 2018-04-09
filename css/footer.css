@@ -85,3 +85,9 @@
   align-self: center; /*Vertical*/
   justify-self: center;
 }
+
+@media (max-width: 650px){
+  .footerp{
+    grid-template-columns: 1fr;
+  }
+}
