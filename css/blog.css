@@ -5,13 +5,53 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   display: grid;
   margin: 0;
   padding: 0;
 }
 
-.posts{
-  height: 100vh;
-  background-color: white;
+.principal{
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.first-post{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background-color: black;
+  margin-top: 20%;
+  max-width: 100%;
+}
+
+.left{
+  color: white;
+  text-align:  justify;
+  align-self: center;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.left a{
+  color: white;
+}
+
+.left h1{
+  font-size: 2em;
+}
+
+.left h5 a:hover{
+  text-decoration: underline;
+}
+
+.right{
+  align-self: flex-end;
+  justify-self: flex-end;
+  bottom: 0;
+}
+
+.postlist{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
