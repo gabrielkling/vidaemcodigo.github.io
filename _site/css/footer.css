@@ -90,4 +90,7 @@
   .footerp{
     grid-template-columns: 1fr;
   }
+  .sitemap{
+    text-align: center;
+  }
 }

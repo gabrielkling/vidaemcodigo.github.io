@@ -30,6 +30,7 @@ footer{
 img{
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /* Sessão Principal */
@@ -48,6 +49,7 @@ img{
   margin-top: 20%;
   max-width: 100%;
   background-color: black;
+  margin-bottom: 10px;
 }
 
 .left{
@@ -85,66 +87,41 @@ img{
 
 .programacao{
   color: white;
-  background-color: #212121;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
 .progposts{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
-.text{
+.text-description{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.8);
+  filter: alpha(opacity=80);
+}
+
+.text-description h1, p{
+  padding-left: 2%;
+}
+
+.postlink{
   color: white;
-  margin-top: -371px;
-  background-color: rgb(0, 0, 0, .8);
 }
 
-.text h1{
-  font-size: 3em;
+.text-description span:hover, h5:hover{
   text-decoration: underline;
-  margin-bottom: 0;
 }
 
-.text p{
-  font-size: 2em;
-}
-
-.text h4{
-  font-size: 1.5em;
+.text-description h5{
   text-align: right;
-  margin-right: 1%;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.text h4:hover{
-  text-decoration: underline;
-}
-
-.progposts_text{
-  color: white;
-  margin-top: -198px;
-  background-color: rgb(0, 0, 0, .8);
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.progposts_text h1{
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
-.progposts h4{
-  text-align: right;
-  margin-right: 1%;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.progposts h4:hover{
-  text-decoration: underline;
+  padding-right: 10px;
 }
 
 .negocios{
@@ -152,13 +129,16 @@ img{
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 }
 
 @media(max-width: 650px){
   .first-post, .programacao, .progposts, .negocios{
     grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 
 }
