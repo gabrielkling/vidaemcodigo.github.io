@@ -50,7 +50,7 @@ img{
   max-width: 100%;
   background-color: black;
   margin-bottom: 10px;
-}
+  }
 
 .left{
   color: white;
@@ -83,6 +83,14 @@ img{
   height: auto;
 }
 
+.hzoom{
+  transition: transform .3s;
+}
+
+.hzoom:hover{
+  transform: scale(1.03);
+}
+
 /* Sessão dos Posts de Programação */
 
 .programacao{
@@ -103,8 +111,9 @@ img{
   bottom: 0px;
   left: 0;
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.9);
   filter: alpha(opacity=80);
+  max-height: 50%;
 }
 
 .text-description h1, p{
@@ -153,6 +162,10 @@ img{
   .first-post, .programacao, .progposts, .negocios{
     grid-template-columns: 1fr;
     grid-gap: 10px;
+  }
+
+  .text-description p{
+    display: none;
   }
 
 }
